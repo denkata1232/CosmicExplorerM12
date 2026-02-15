@@ -1,0 +1,36 @@
+﻿@model BookCatalogWebApp_M12.Models.Book.SpaceObjectViewModel
+<div class="container mt-5">
+    <div class="card shadow border-0">
+        <div class="card-header bg-info text-white text-center py-3">
+            <h2 class="mb-0">@Model.Name</h2>
+        </div>
+        <div class="card-body p-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <h5><strong>Description:</strong></h5>
+                    <p class="text-justify">@Model.Description</p>
+                </div>
+                <div class="col-md-4 border-start">
+                    <p><strong>Category:</strong> <span class="badge bg-secondary">@Model.Category</span></p>
+                    <p><strong>Created On:</strong> @Model.CreatedOn</p>
+                    <p><strong>Owner:</strong> @Model.Owner</p>
+                    <hr />
+                    <h6><strong>Founders:</strong></h6>
+                    <ul class="list-unstyled">
+                        @foreach (var founder in Model.Founders)
+                        {
+                            <li><i class="bi bi-person"></i> @founder</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-light text-center">
+            <a asp-action="All" class="btn btn-secondary px-5">Back to Catalog</a>
+        </div>
+    </div>
+</div>@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}

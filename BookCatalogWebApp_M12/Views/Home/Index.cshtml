@@ -1,0 +1,56 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+@model BookCatalogWebApp_M12.Models.Home.HomeViewModel
+
+<div class="container text-center mt-5">
+    <h1 class="display-4 text-primary">Space object Catalog Dashboard</h1>
+    <p class="lead">Manage your findings efficiently and track your progress.</p>
+    <hr />
+</div>
+
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-primary h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">Total Objects</h5>
+                    <p class="display-4 fw-bold">@Model.AllspaceObjectsCount</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-success h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-muted">My Objects</h5>
+                    <p class="display-4 fw-bold text-success">
+                        @(Model.UserspaceObjectsCount == -1 ? 0 : Model.UserspaceObjectsCount)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-info h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-muted mb-3">By Category</h5>
+                    <ul class="list-group list-group-flush text-start">
+                        @foreach (var category in Model.CategoriesWithBooksCount)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                @category.CategoryName
+                                <span class="badge bg-info rounded-pill">@category.spaceObjectsCount</span>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

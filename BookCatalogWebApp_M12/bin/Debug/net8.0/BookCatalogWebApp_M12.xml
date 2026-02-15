@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookCatalogWebApp_M12</name>
+    </assembly>
+    <members>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.ErrorMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.LoginModel.InputModel.RememberMe">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Areas.Identity.Pages.Account.RegisterModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Migrations.RemoveTableLoan">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.RemoveTableLoan.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.RemoveTableLoan.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.RemoveTableLoan.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Migrations.fixingDatabaseProblems">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.fixingDatabaseProblems.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.fixingDatabaseProblems.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookCatalogWebApp_M12.Migrations.fixingDatabaseProblems.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Models.Home.HomeCategoryViewModel">
+            <summary>
+            модел за показване на статистика по категории на началната страница.
+            </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Models.Home.HomeViewModel">
+            <summary>
+            Основен модел за началната страница.
+            /// </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Home.HomeViewModel.AllspaceObjectsCount">
+            <summary>
+            Общият брой на всички книги, регистрирани в системата.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Home.HomeViewModel.UserspaceObjectsCount">
+            <summary>
+            Броят книги, добавени от текущо вписания потребител.
+            Стойността е -1, ако потребителят е анонимен.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Home.HomeViewModel.CategoriesWithBooksCount">
+            <summary>
+            Списък с категории и броя книги във всяка от тях за статистическото табло.
+            </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel">
+            <summary>
+            Модел за формата при създаване или редактиране на книга.
+            Включва валидационни съобщения.
+            </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel.Name">
+            <summary> Заглавие с изискване за дължина. </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel.Description">
+            <summary> Описание с минимална дължина за по-добра информативност. </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel.CategoryId">
+            <summary> Избраната категория от падащото меню. </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel.Categories">
+            <summary> Списък от налични категории за попълване на падащото меню. </summary>
+        </member>
+        <member name="P:BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel.FounderName">
+            <summary> Текстово поле за въвеждане на име на автор. </summary>
+        </member>
+        <member name="T:BookCatalogWebApp_M12.Models.Book.SpaceObjectViewModel">
+            <summary>
+            Модел, използван за визуализация на книга в списъка или детайлите.
+            </summary>
+        </member>
+    </members>
+</doc>

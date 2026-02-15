@@ -1,0 +1,40 @@
+﻿@model BookCatalogWebApp_M12.Models.Book.spaceObjectFormModel
+
+<h2 class="text-center mt-4">Add New Space Objects</h2>
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-6 card p-4 shadow-sm">
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label font-weight-bold">Name</label>
+                <input asp-for="Name" class="form-control" placeholder="Enter space object name..." />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label font-weight-bold">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="form-label font-weight-bold">Category</label>
+                <select asp-for="CategoryId" class="form-select">
+                    @foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.Id">@category.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="FounderName" class="form-label font-weight-bold">Founder Name</label>
+                <input asp-for="FounderName" class="form-control" placeholder="E.g. J.K. Rowling" />
+                <span asp-validation-for="FounderName" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg w-100 mt-3">Create space object</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
